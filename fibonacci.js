@@ -7,9 +7,9 @@ function Fib(limit) {
             sum += curr;
         }
         let next = prev + curr;
-        prev = curr;
-        curr = next;
+          prev = curr;
+        curr = next; 
     }
-	console.log("Task 2:", sumEvenFibonacci(4000000));
     return sum;
 }
+console.log("Task 2:", Fib(4000000));

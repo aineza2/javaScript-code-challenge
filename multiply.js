@@ -5,7 +5,6 @@ function Mult(limit) {
             sum += i;
         }
     }
-	console.log("Task 1:", Mul(1000));
     return sum;
 }
-
+ console.log("Task 1:", Mul(1000));
